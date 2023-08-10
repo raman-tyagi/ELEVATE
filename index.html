@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/ELEVATE..png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>ELEVATE</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/ELEVATE..png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About Us</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>ELEVATE YOUR TRADING SKILLS!! </p>
+				<h5>Welcome to ELEVATE Trading, your ultimate destination for mastering the art of trading and unlocking your full potential in the world of financial markets. Our mission is to empower traders of all levels with the knowledge, tools, and mindset needed to elevate their trading journey to new heights.</h5>
+				<div class="play">
+					<img src="images/icon/play.png" alt="play"><span><a href="https://www.youtube.com/channel/UCx5mhmEptxAf8NXg2zq6YpQ " target="_blank">YOUTUBE</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/refugees-1020255_1280.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/Raman Tyagi.jpeg" alt="Username">
+				<p>Raman Tyagi</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About Us</a></li>
+			
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About Us</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/icon/ELEVATE..png">
+				</div>
+				<div class="side-text">
+					<h2>Who are we and what do we do ?</h2>
+					<p>At ELEVATE Trading, we believe that trading is not just about making profits; it's about gaining a deep understanding of the markets, honing your skills, and making informed decisions that align with your financial goals. Whether you're a seasoned trader looking to refine your strategies or a beginner eager to embark on this exciting adventure, our channel is here to guide you every step of the way.</p>
+				</div>
+		</div>
+	</div>
+
+
+
+
+<!--Creator -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">Meet the Creator!</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/Raman Tyagi.jpeg"></center>
+				<center><div class="card-title">Raman Tyagi</div>
+				<div id="detail">
+					<p>“Every battle is won or lost before it’s ever fought”
+						– Sun Tzu</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/raman-tyagi-650116256/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
+		</div>
+		<a href="https://shorturl.at/vHNW1"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Extensive Online Courses on Trading Skills</p></div></a>
+		<a href="https://www.youtube.com/channel/UCx5mhmEptxAf8NXg2zq6YpQ"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Daily Market Analysis Video</p></div></a>
+		<a href="https://trustedbrokers.com/in/books/technical-analysis-books/"><div class="s-card"><img src="images/icon/papers.jpg"><p>Free Trading Pattern Ebook's</p></div></a>
+	<div class="s-card"><img src="images/icon/discussion.png"><p>Global Chat</p></div></a>
+		<a href=""><div class="s-card"><img src="images/icon/q1.png"><p>Daily Quiz to Improve Trading Skill</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a>
+	</div>
+
+
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:ramantyagi233@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:ramantyagi233@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Feedback</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
